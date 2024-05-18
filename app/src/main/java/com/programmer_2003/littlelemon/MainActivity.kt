@@ -65,7 +65,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun HomeScreen() {
     Scaffold(
-        topBar = TopAppBar()
+        topBar = { TopAppBar() }
     ) {
         Column {
             UpperPanel()
