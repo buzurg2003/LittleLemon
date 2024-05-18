@@ -2,6 +2,7 @@ package com.programmer_2003.littlelemon
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -20,7 +21,7 @@ fun TopAppBar() {
             Image(
                 painter = painterResource(id = R.drawable.ic_hamburger_menu),
                 contentDescription = "Menu Icon",
-//                modifier = Modifier.size(40.dp)
+                modifier = Modifier.size(40.dp)
             )
         }
         Image(
